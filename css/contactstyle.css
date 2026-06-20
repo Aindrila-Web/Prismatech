@@ -1,0 +1,1457 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-family: "Lato", sans-serif;
+}
+/* .container {
+    width: 1140px;
+    margin: 0 auto;
+} */
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+/* HEADER STYLE */
+header .topheader {
+    background-color: rgba(14, 6, 27, 0.95);
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(185, 115, 251, 0.1);
+}
+
+header .topheader .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+header .buttons .book, .join{
+    margin-top: 14px;
+}
+header .topheader .buttons .logo img {
+    height: 48px;
+    margin-right: 20%;
+}
+header .topheader .buttons .book a {
+    background-color: transparent;
+    border: 2px solid #b973fb;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #b973fb;
+    padding: 10px 24px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 6px #B973FB;
+}
+
+header .topheader .buttons .book a:hover {
+    background-color: #b973fb;
+    color: white;
+    box-shadow: 0 0 15px #b973fb;
+}
+
+header .topheader .buttons .join a {
+    background: linear-gradient(to right, #3c6cfb 0%, #b973fb 100%);
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 10px 24px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+header .topheader .buttons .join a:hover {
+    background: linear-gradient(to right, #b973fb 0%, #3c6cfb 100%);
+    box-shadow: 0 0 20px rgba(60, 108, 251, 0.8);
+}
+
+header .btmheader {
+    background-color: white;
+}
+header .btmheader .navbar-expand-lg .navbar-collapse{
+    justify-content: center;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(26 19 39);
+    border: 2px solid;
+    border-color: rgb(26 19 39);
+}
+/* header .btmheader .menu {
+    text-align: center;
+    padding: 8px;
+} */
+/* header .btmheader .menu nav a {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #1B0C31;
+    letter-spacing: 1px;
+    margin: 0 20px;
+} */
+header .btmheader .navbar-light .navbar-nav .nav-link{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #1B0C31;
+    letter-spacing: 1px;
+    margin: 0 20px;
+}
+header .btmheader .navbar-light .navbar-nav .nav-link:hover{
+    color: #b973fb;
+}
+header .btmheader .navbar-light .navbar-nav .nav-link.active{
+    color: #b973fb;
+}
+/* header .btmheader .menu nav a:hover {
+    color: #b973fb;
+}
+header .btmheader .menu nav a.active {
+    color: #b973fb;
+} */
+
+
+.banner{
+    padding: 100px 0;
+    text-align: center;
+    background-image: url(../images/contactus.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    background-color: #1b0c31e3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.banner p{
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 1;
+}
+.banner h1{
+    font-size: 80px;
+    line-height: 90px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    color: transparent;
+    background: linear-gradient(to right, rgb(255 255 255 / 50%) 0%, rgb(225 193 255 / 50%) 99%);
+    background-clip: text;
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 1;
+}
+.banner h1::after{
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 1px;
+    height: 30px;
+    top: 284%;
+    left: 58%;
+}
+.banner h1::before{
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 1px;
+    height: 30px;
+    top: 284%;
+    left: 41%;
+}
+.banner .call{
+    color: #b973fb;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 50px;
+    margin-right: 40px;
+    border: 2px solid #b973fb;
+    border-radius: 30px;
+    box-shadow: inset 0 0 6px #b973fb;
+    position: relative;
+    z-index: 1;
+}
+.banner .call:hover{
+    color: white;
+    background-color: #b973fb;
+    box-shadow: 0 0 20px #b973fb;
+}
+.banner .get{
+    background: linear-gradient(to right, #3c6cfb 0%, #b973fb 100%);
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 50px;
+    position: relative;
+    z-index: 1;
+}
+.banner .get:hover{
+    background: linear-gradient(to right, #b973fb 0%, #3c6cfb 100%);
+    box-shadow: 0 0 20px rgba(60, 108, 251, 0.8);
+}
+.banner .feature{
+    /* display: flex;
+    justify-content: center;
+    gap: 80px; */
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+}
+.banner .feature .quick{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.banner .feature .quick .name{
+    margin-top: 4px;
+}
+.banner .feature .quick main mark{
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    background-color: transparent;
+}
+.mobile{
+    padding: 100px 0;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(237,217,255,1) 100%)padding-box,
+                linear-gradient(to right, rgba(187,150,255,1) 0%,rgba(73,1,178,1) 100%)border-box;            
+}   
+/* .mobile .location{
+    display: flex;
+    justify-content: space-around;
+} */
+.mobile .location .mob1, .mob2, .mob3, .mob4{
+    width: 100%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.mobile .location .mob1 img{
+    filter: drop-shadow(0 0 8px rgba(3,121,224,1));
+    transition: all 1s;
+}
+.mobile .location .mob1 img:hover{
+    transform: scale(1.2);
+}
+.mobile .location .mob2 img{
+    filter: drop-shadow(0 0 8px rgba(245,141,12,1));
+    transition: all 1s;
+}
+.mobile .location .mob2 img:hover{
+    transform: scale(1.2);
+}
+.mobile .location .mob3 img{
+    filter: drop-shadow(0 0 8px rgba(131,0,255,1));
+    transition: all 1s;
+}
+.mobile .location .mob3 img:hover{
+    transform: scale(1.2);
+}
+.mobile .location .mob4 img{
+    filter: drop-shadow(0 0 8px rgba(219,7,109,1));
+    transition: all 1s;
+}
+.mobile .location .mob4 img:hover{
+    transform: scale(1.2);
+}
+.mobile .location .mob1 .image{
+    position: absolute;
+    top: 64px;
+    left: 102px;
+
+}
+.mobile .location .mob1 .image i{
+    background: linear-gradient(to right, rgba(128,196,255,1) 24%,rgba(3,121,224,1) 75%);
+    font-size: 24px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 12px;
+    box-shadow: 0 0 8px rgba(3,121,224,1);
+}
+.mobile .location .mob1 .image .office{
+    color: rgba(3,121,224,1);
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+}
+
+.mobile .location .mob2 .image{
+    position: absolute;
+    top: 64px;
+    left: 96px;
+}
+.mobile .location .mob2 .image i{
+    background: linear-gradient(to right, rgba(255,201,5,1) 24%,rgba(245,141,12,1) 75%);
+    border-radius: 100%;
+    font-size: 24px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    overflow: visible;
+    box-shadow: 0 0 8px rgba(245,141,12,1);
+}
+.mobile .location .mob2 .image .office{
+    color: rgba(245,141,12,1);
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+}
+
+.mobile .location .mob3 .image{
+    position: absolute;
+    top: 64px;
+    left: 94px;
+}
+.mobile .location .mob3 .image i{
+    background: linear-gradient(to right, rgba(190,121,255,1) 24%,rgba(131,0,255,1) 75%);
+    border-radius: 100%;
+    font-size: 24px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    overflow: visible;
+    box-shadow: 0 0 8px rgba(131,0,255,1);
+}
+.mobile .location .mob3 .image .office{
+    color: rgba(131,0,255,1);
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+}
+
+.mobile .location .mob4 .image{
+    position: absolute;
+    top: 64px;
+    left: 92px;
+}
+.mobile .location .mob4 .image i{
+    background: linear-gradient(to right, rgba(254,94,122,1) 24%,rgba(219,7,109,1) 75%);
+    border-radius: 100%;
+    color: white;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    box-shadow: 0 0 8px rgba(219,7,109,1);
+}
+.mobile .location .mob4 .image .office{
+    color: rgba(219,7,109,1);
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+}
+
+.contact{
+    padding: 100px 0;
+    border-bottom: 3px solid transparent;
+    background-image: 
+            linear-gradient(to right, rgba(229,235,255,1) 0%,rgba(242,229,255,1) 98%),
+            linear-gradient(to right, rgba(128,60,251,1) 0%,rgba(215,172,255,1) 98%);
+    background-origin:border-box;
+    background-clip:padding-box,border-box;
+}
+.contact h2{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: transparent;
+    background: linear-gradient(to right, rgba(60,107,251,1) 0%,rgb(0, 0, 0) 100%);
+    background-clip: text;
+    text-decoration: underline;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.contact p{
+    color: #6A6A6A;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.contact .background a img{
+    width: 100%;
+    transition: all 3s;
+}
+.contact .background a img:hover{
+    transform: rotateY(180deg);
+}
+.contact form .name-id{
+    display: flex;
+    justify-content: left;
+    gap: 65px;
+    margin-bottom: 20px;
+}
+.contact form .name-id .name, .email{
+    position: relative;
+}
+.contact form .name-id .name i, .email i{
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    color: #803CFB;
+} 
+.contact form .name-id .name input{
+    padding: 12px 50px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+}
+.contact form .name-id .email input{
+    padding: 12px 50px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+}
+.contact form .details{
+    display: flex;
+    justify-content: left;
+    gap: 65px;
+    margin-bottom: 20px;
+}
+.contact form .details .number, .company{
+    position: relative;
+}
+.contact form .details .number i, .company i{
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    color: #B973FB;
+}
+.contact form .details .number input{
+    padding: 12px 50px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+}
+.contact form .details .company input{
+    padding: 12px 50px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+}
+.contact form .service{
+    position: relative;
+}
+.contact form .service i{
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    color: #0ea5ff;
+}
+.contact form .service select{
+    width: 100%;
+    padding: 12px 50px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+    margin-bottom: 20px;
+}
+.contact form .message{
+    position: relative;
+}
+.contact form .message i{
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    font-size: 24px;
+    color: green;
+}
+.contact form .message textarea{
+    width: 100%;
+    padding: 20px 50px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+    margin-bottom: 60px;
+}
+
+.contact .send{
+    color: white;
+    font-weight: 400;
+    padding: 10px 50px;
+    border-radius: 30px;
+    margin-right: 15%;
+    background: linear-gradient(to right, rgba(60,107,251,1) 0%,rgba(185,115,251,1) 100%);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+}
+.contact .send i{
+    margin-right: 10px;
+}
+.contact .send:hover{
+    background: linear-gradient(to right, rgba(185,115,251,1) 0%,rgba(60,107,251,1) 100%);
+    box-shadow: 0 0 20px rgba(60, 108, 251, 0.8);
+}
+.contact mark{
+    background-color: transparent;
+    color: #2E2E2E;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.contact mark i{
+    color: #0088FF;
+    margin-right: 8px;
+}
+.map{
+    padding: 100px 0;
+    border-bottom: 3px solid transparent;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(237,217,255,1) 100%)padding-box,
+                linear-gradient(to right, rgba(187,150,255,1) 0%,rgba(73,1,178,1) 100%)border-box; 
+}
+/* .map .content{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+} */
+.map .content .map-link iframe{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #1B0C31;
+}
+.map .content .locate{
+    margin-top: 10px;
+    width: 100%;
+}
+.map .content .locate h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: "Orbitron", sans-serif;
+    color: transparent;
+    background: linear-gradient(to right, rgba(185,115,251,1) 4%,rgba(80,0,155,1) 75%);
+    background-clip: text;
+    line-height: 40px;
+    text-decoration: underline;
+}
+.map .content .locate p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Rajdhani", sans-serif;
+    margin-bottom: 40px;
+}
+.map .content .locate .menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.map .content .locate .menu .link{
+    padding: 20px 20px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%,rgb(255, 255, 255) 100%)padding-box,
+                linear-gradient(135deg, rgba(0,167,28,1) 9%,rgba(255,234,0,1) 35%,rgba(0,136,255,1) 63%,rgba(205,10,0,1) 94%)border-box;
+    transition: transform 0.3s ease;    
+}
+.map .content .locate .menu .link:hover{
+    transform: translateY(-10px);
+}
+.map .content .locate .menu .link a{
+    font-weight: 900;
+    font-size: 14px;
+    color: black;
+}
+.map .content .locate .menu .link a:hover{
+    color: #803CFB;
+}
+.map .content .locate .menu svg{
+    margin-bottom: 10px;
+}
+.map .content .locate .images{
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.map .content .locate .images .overlayy{
+    position: absolute;
+    background-color: #1b0c31b5;
+    padding: 46px 31px;
+    top: 0;
+    left: 67%;
+    right: 0;
+    bottom: 6px;
+}
+.map .content .locate .images .overlayy a{
+    color: white;
+    font-weight: 600;
+}
+.map .content .locate .images .overlayy a:hover{
+    color: #B973FB;
+}
+.map .content .locate .images img{
+    width: 100%;
+    transition: ease-out 0.4s;
+}
+.map .content .locate .images img:hover{
+    transform: scale(1.1);
+}
+.world{
+    padding: 100px 0;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    background: 
+            linear-gradient(to right, rgba(237,219,255,1) 6%,rgba(255,255,255,1) 91%)padding-box,
+            linear-gradient(to right, rgba(128,60,251,1) 0%,rgba(215,172,255,1) 98%)border-box;
+}
+.world h2{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: transparent;
+    background: linear-gradient(to right, rgba(60,107,251,1) 0%,rgb(0, 0, 0) 100%);
+    background-clip: text;
+    text-decoration: underline;
+    line-height: 40px;
+    margin-bottom: 60px; 
+}
+/* .world .parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+} */
+.world .parent .child{
+    padding: 30px 10px;
+    margin-bottom: 20px;
+    border-top: 6px solid #FFEA00;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background: linear-gradient(135deg, rgba(200,142,255,1) 6%,rgba(131,0,255,1) 91%);
+    transition: transform 0.3s ease;
+}
+.world .parent .child1{
+    padding: 30px 10px;
+    margin-bottom: 20px;
+    border-top: 6px solid #FFEA00;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background: linear-gradient(135deg, rgba(137,166,255,1) 6%,rgba(7,78,255,1) 91%);
+    transition: transform 0.3s ease;
+}
+.world .parent .child2{
+    padding: 30px 10px;
+    margin-bottom: 20px;
+    border-top: 6px solid #FFEA00;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background: linear-gradient(135deg, rgba(255,128,189,1) 6%,rgba(239,27,111,1) 91%); 
+    transition: transform 0.3s ease;
+}
+.world .parent .child:hover, .child1:hover, .child2:hover{
+    transform: translateY(-10px);
+}
+.world .parent .child h3, .child1 h3, .child2 h3{
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Orbitron", sans-serif;
+    margin-bottom: 30px;
+}
+.world .parent .child p, .child1 p, .child2 p{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.world .parent .child a, .child1 a, .child2 a{
+    color: white;
+    padding: 10px 35px;
+    border: 2px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: inset 0 0 6px white;
+}
+.world .parent .child a:hover{
+    color: rgba(131,0,255,1);
+    background-color: white;
+    box-shadow: 0 0 10px white;
+}
+.world .parent .child1 a:hover{
+    color: rgba(7,78,255,1);
+    background-color: white;
+    box-shadow: 0 0 10px white;
+}
+.world .parent .child2 a:hover{
+    color: rgba(239,27,111,1);
+    background-color: white;
+    box-shadow: 0 0 10px white;
+}
+.faq{
+    padding: 100px 0;
+    background-color: black;
+    background-image: url(../images/question.jpeg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 46%;
+}
+/* .faq .head{
+    display: flex;
+    justify-content: space-between;
+} */
+.faq h3{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #B973FB;
+    display: inline-block;
+    background-color: white;
+    border-radius: 30px;
+    padding: 4px 15px;
+    box-shadow: 0 4px 6px rgba(185,115,251,1);
+    margin-bottom: 20px;
+}
+.faq h2{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: transparent;
+    background: linear-gradient(to right, rgba(255,255,255,1) 10%,rgba(185,115,251,1) 40%);
+    background-clip: text;
+    text-decoration: underline;
+    line-height: 40px;
+    margin-bottom: 60px;
+}
+.faq a{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    float: right;
+    color: white;
+    font-weight: 600;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgba(60,107,251,1) 0%,rgba(185,115,251,1) 100%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.596);
+}
+.faq a:hover{
+    background: linear-gradient(to right, rgba(185,115,251,1) 0%,rgba(60,107,251,1) 100%);
+    box-shadow: 0 0 20px rgba(60, 108, 251, 0.8);
+}
+/* .faq .prism{
+    background-image: url(../images/question.jpeg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.faq .prism details{
+    width: 40%;
+    padding: 20px 24px;
+    background-color: white;
+    border: 1px solid #0ea5ff;
+    box-shadow: inset 0 2px 8px #0ea7ffce;
+    border-radius: 8px;
+    margin-bottom: 10px;
+} */
+ /* .faq .answer{
+    background-image: url(../images/question.jpeg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+ } */
+ .faq .accordion-item {
+    background-color: white;
+    border: 1px solid #0ea5ff;
+    box-shadow: inset 0 2px 10px #0ea7ffce;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.faq .accordion-header{
+    border: 1px solid #0ea5ff;
+    box-shadow: inset 0 2px 10px #0ea7ffce;
+    border-radius: 8px;
+}
+.faq .accordion-body{
+    background-color: #803CFB;
+    color: white;
+    border-radius: 8px;
+}
+.faq .accordion-button{
+    border: 1px solid #0ea5ff;
+    box-shadow: inset 0 2px 4px #0ea7ffce;
+    border-radius: 8px;
+    color: #803CFB;
+    font-size: 20px;
+    font-weight: 600;
+}
+.faq .accordion-button::after{
+    color: #0ea5ff;
+}
+.faq .ask{
+    margin-top: 50px;
+    position: relative;
+}
+.faq .ask label{
+    display: block;
+    color: #B973FB;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.faq .ask input[type="text"]{
+    display: block;
+    width: 50%;
+    border-radius: 8px;
+    padding: 8px 40px;
+    border: 2px solid #B973FB;
+    box-shadow: inset 0 0 6px #B973FB;
+}
+.faq .ask .pen{
+    position: absolute;
+    top: 37px;
+    left: 16px;
+    color: #0ea5ff;
+    font-size: 20px;
+    filter: drop-shadow(2px 4px 2px rgb(0, 170, 255));
+}
+.faq .ask .question{
+   position: absolute;
+    top: 36px;
+    left: 47%;
+    color: #8402FF;
+    font-size: 30px; 
+    filter: drop-shadow(0 0 2px rgba(128,60,251,1));
+}
+.faq .ask input[type="submit"]{
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 8px 50px;
+    font-weight: 600;
+    border: 2px solid #B973FB;
+    background-color: transparent;
+    color: #B973FB;
+    box-shadow: inset 0 0 8px #b973fb;
+}
+.faq .ask input[type="submit"]:hover{
+    color: white;
+    background-color: #B973FB;
+    box-shadow: 0 0 20px #b973fb;
+}
+.future{
+    padding: 80px 0;
+    background-image: url(../images/office-building.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.future .overlayyy{
+    position: absolute;
+    background-color: #1b0c31c1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.future .build{
+    /* display: flex;
+    justify-content: space-around; */
+    position: relative;
+    z-index: 1;
+}
+.future .build .consult h2{
+    margin-top: 30px;
+    color: white;
+    font-family: "Rajdhani", sans-serif; 
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.future .build .consult mark{
+    background-color: transparent;
+    color: transparent;
+    background: linear-gradient(135deg, rgba(0,136,255,1) 0%,rgba(185,115,251,1) 60%);
+    background-clip: text;
+}
+.future .build .button p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 50px;
+}
+.future .build .button .now{
+    margin-right: 30px;
+    color: #B973FB;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: 2px solid #B973FB;
+    font-weight: 400;
+    box-shadow: inset 0 0 6px #B973FB;
+}
+.future .build .button .now:hover{
+    color: white;
+    background-color: #B973FB;
+    box-shadow: 0 0 20px rgba(185,115,251,1);
+}
+.future .build .button .book{
+    color: white;
+    padding: 10px 37px;
+    font-weight: 400;
+    background: linear-gradient(135deg, rgba(0,136,255,1) 0%,rgba(185,115,251,1) 60%);
+    border-radius: 30px;
+}
+.future .build .button .book:hover{
+    background: linear-gradient(to right, rgba(185,115,251,1) 33%,rgba(0,136,255,1) 100%);
+    box-shadow: 0 0 20px rgba(0,136,255,1);
+}
+footer{
+    background-image: url(../images/footer-banner-prism.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .topfoot{
+    padding: 100px 0;
+    position: relative;
+}
+.overlayy{
+    position: absolute;
+    background-color: #1b0c31bf;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+footer .topfoot .content{
+    /* display: flex;
+    justify-content: space-evenly; */
+    position: relative;
+    z-index: 1;
+}
+footer .topfoot .content .imp, .links, .works, .industry, .touch{
+    margin-bottom: 60px;
+}
+footer .topfoot .content .imp img{
+    width: 60%;
+    margin-bottom: 20px;
+}
+footer .topfoot .content .imp p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+footer .topfoot .content .imp mark{
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+footer .topfoot .content .imp form input{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.628);
+    border: 2px solid #36415F;
+    position: relative;
+}
+footer .topfoot .content .imp form a{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0ea5ff;
+    top: 198px;
+    left: 174px;
+}
+footer .topfoot .content .links, .works, .industry, .touch{
+    margin-left: 40px;
+}
+footer .topfoot .content .links h4, .works h4, .industry h4, .touch h4{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: transparent;
+    background: linear-gradient(to right, rgba(60,107,251,1) 0%,rgba(255,255,255,1) 43%);
+    background-clip: text;
+    line-height: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+footer .topfoot .content h4::after{
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, rgba(60,107,251,1) 0%,rgba(185,115,251,1) 100%);
+    width: 50px;
+    height: 3px;
+    top: 30px;
+    left: 0;
+}
+footer .topfoot .content .links .home li, .works .cloud li, .industry .health li, .touch .address li{
+    margin-bottom: 16px;
+}
+footer .topfoot .content .links .home li a, .works .cloud li a, .industry .health li a, .touch .address li a{
+    color: white;
+    font-weight: 400;
+}
+footer .topfoot .content .touch{
+    position: relative;
+}
+footer .topfoot .content .touch::before{
+    position: absolute;
+    content: "";
+    background-color: #36415F;
+    width: 2px;
+    top: 0px;
+    height: 100%;
+    right: 110%;
+    bottom: 0%;
+}
+footer .topfoot .content .touch .address li a i{
+    color: #0088FF;
+    font-size: 18px;
+}
+footer .topfoot .content .links .home li a:hover, 
+.works .cloud li a:hover, 
+.industry .health li a:hover, 
+.touch .address li a:hover{
+    color: #cf9cff;
+}
+footer .topfoot .content .touch nav{
+    margin-top: 40px;
+}
+footer .topfoot .content .touch nav .fb{
+    margin: 20px 5px;
+    color: #C486FF;
+    font-size: 18px;
+    border-radius: 100%;
+    padding: 10px 15px;
+    border: 1px solid #C486FF;
+    box-shadow: inset 0 0 4px #C486FF;
+}
+footer .topfoot .content .touch nav .fb:hover{
+    background-color: #b973fb;
+    color: white;
+    box-shadow: 0 0 15px #b973fb;
+}
+footer .topfoot .content .touch nav .in{
+    margin-right: 5px;
+    color: #C486FF;
+    font-size: 18px;
+    border-radius: 100%;
+    padding: 10px 12px;
+    border: 1px solid #C486FF;
+    box-shadow: inset 0 0 4px #C486FF;
+}
+footer .topfoot .content .touch nav .in:hover{
+    background-color: #b973fb;
+    color: white;
+    box-shadow: 0 0 15px #b973fb;
+}
+footer .topfoot .content .touch nav .twit{
+    margin-right: 5px;
+    color: #C486FF;
+    font-size: 18px;
+    border-radius: 100%;
+    padding: 10px 11px;
+    border: 1px solid #C486FF;
+    box-shadow: inset 0 0 4px #C486FF;
+}
+footer .topfoot .content .touch nav .twit:hover{
+    background-color: #b973fb;
+    color: white;
+    box-shadow: 0 0 15px #b973fb;
+}
+footer .topfoot .content .touch nav .you{
+    margin-right: 5px;
+    color: #C486FF;
+    font-size: 18px;
+    border-radius: 100%;
+    padding: 10px 11px;
+    border: 1px solid #C486FF;
+    box-shadow: inset 0 0 4px #C486FF;
+}
+footer .topfoot .content .touch nav .you:hover{
+    background-color: #b973fb;
+    color: white;
+    box-shadow: 0 0 15px #b973fb;
+}
+
+footer .btmfoot{
+    padding: 10px 0;
+}
+footer .btmfoot .copyright{
+    margin-top: 14px;
+}
+footer .btmfoot .copyright .copy p{
+    font-size: 11px;
+    color: white;
+}
+footer .btmfoot .copyright .all p{
+    font-size: 14px;
+    color: white;
+}
+footer .btmfoot .copyright .right p{
+    font-size: 13px;
+    color: white;
+}
+footer .btmfoot .copyright .right mark{
+    background-color: transparent;
+}
+footer .btmfoot .copyright .right mark .ejob{
+    color: #0ea5ff;
+}
+footer .btmfoot .copyright .right mark .ejob:hover{
+    color: #0088FF;
+}
+footer .btmfoot .copyright .right mark a{
+    color: #a676ff;
+    font-weight: 600;
+}
+footer .btmfoot .copyright .right mark a:hover{
+    color: #cf9cff;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+
+
+    .banner p{
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+.banner h1{
+    font-size: 50px;
+    line-height: 90px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    color: transparent;
+    background: linear-gradient(to right, rgb(255 255 255 / 50%) 0%, rgb(225 193 255 / 50%) 99%);
+    background-clip: text;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+.banner h1::after{
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 50px;
+    height: 1px;
+    top: 379%;
+    left: 47%;
+}
+.banner h1::before{
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 50px;
+    height: 1px;
+    top: 316%;
+    left: 47%;
+}
+.banner .call{
+    color: #b973fb;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 50px;
+    margin-right: 40px;
+    border: 2px solid #b973fb;
+    border-radius: 30px;
+    box-shadow: inset 0 0 6px #b973fb;
+    position: relative;
+    z-index: 1;
+}
+.banner .call:hover{
+    color: white;
+    background-color: #b973fb;
+    box-shadow: 0 0 20px #b973fb;
+}
+.banner .get{
+    background: linear-gradient(to right, #3c6cfb 0%, #b973fb 100%);
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 50px;
+    position: relative;
+    z-index: 1;
+}
+.banner .get:hover{
+    background: linear-gradient(to right, #b973fb 0%, #3c6cfb 100%);
+    box-shadow: 0 0 20px rgba(60, 108, 251, 0.8);
+}
+.banner .feature{
+    /* display: flex;
+    justify-content: center;
+    gap: 80px; */
+    margin-top: 80px;
+    position: relative;
+    z-index: 1;
+}
+.banner .feature .quick{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.banner .feature .quick .name{
+    margin-top: 0px;
+}
+.banner .feature .quick main mark{
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    background-color: transparent;
+}
+
+
+
+
+.mobile .location .mob1, .mob2, .mob3, .mob4{
+    width: 100%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.mobile .location .mob1 img, .mob2 img, .mob3 img, .mob4 img{
+    filter: drop-shadow(0 0 8px rgba(72, 1, 178, 0.829));
+}
+.mobile .location .mob1 .image{
+    position: absolute;
+    top: 64px;
+    left: 230px;
+
+}
+.mobile .location .mob1 .image i{
+    background: linear-gradient(to right, rgba(128,196,255,1) 24%,rgba(3,121,224,1) 75%);
+    font-size: 24px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 12px;
+    box-shadow: 0 0 8px rgba(3,121,224,1);
+}
+.mobile .location .mob1 .image .office{
+    color: rgba(3,121,224,1);
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+}
+
+.mobile .location .mob2 .image{
+    position: absolute;
+    top: 64px;
+    left: 222px;
+}
+.mobile .location .mob2 .image i{
+    background: linear-gradient(to right, rgba(255,201,5,1) 24%,rgba(245,141,12,1) 75%);
+    border-radius: 100%;
+    font-size: 24px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    overflow: visible;
+    box-shadow: 0 0 8px rgba(245,141,12,1);
+}
+.mobile .location .mob2 .image .office{
+    color: rgba(245,141,12,1);
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+}
+
+.mobile .location .mob3 .image{
+    position: absolute;
+    top: 64px;
+    left: 221px;
+}
+.mobile .location .mob3 .image i{
+    background: linear-gradient(to right, rgba(190,121,255,1) 24%,rgba(131,0,255,1) 75%);
+    border-radius: 100%;
+    font-size: 24px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    overflow: visible;
+    box-shadow: 0 0 8px rgba(131,0,255,1);
+}
+.mobile .location .mob3 .image .office{
+    color: rgba(131,0,255,1);
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+}
+
+.mobile .location .mob4 .image{
+    position: absolute;
+    top: 64px;
+    left: 220px;
+}
+.mobile .location .mob4 .image i{
+    background: linear-gradient(to right, rgba(254,94,122,1) 24%,rgba(219,7,109,1) 75%);
+    border-radius: 100%;
+    color: white;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    box-shadow: 0 0 8px rgba(219,7,109,1);
+}
+.mobile .location .mob4 .image .office{
+    color: rgba(219,7,109,1);
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+}
+
+
+
+
+.contact .send{
+    color: white;
+    font-weight: 400;
+    padding: 10px 50px;
+    border-radius: 30px;
+    margin-right: 10%;
+    background: linear-gradient(to right, rgba(60,107,251,1) 0%,rgba(185,115,251,1) 100%);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+}
+
+
+
+
+
+.faq .ask{
+    margin-top: 50px;
+    position: relative;
+}
+.faq .ask label{
+    display: block;
+    color: #B973FB;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.faq .ask input[type="text"]{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px 40px;
+    border: 2px solid #B973FB;
+    box-shadow: inset 0 0 6px #B973FB;
+}
+.faq .ask .pen{
+    position: absolute;
+    top: 37px;
+    left: 14px;
+    color: #0ea5ff;
+    font-size: 20px;
+    filter: drop-shadow(2px 4px 2px rgb(0, 170, 255));
+}
+.faq .ask .question{
+   position: absolute;
+    top: 36px;
+    left: 94%;
+    color: #8402FF;
+    font-size: 30px; 
+    filter: drop-shadow(0 0 2px rgba(128,60,251,1));
+}
+.faq .ask input[type="submit"]{
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 8px 50px;
+    font-weight: 600;
+    border: 2px solid #B973FB;
+    background-color: transparent;
+    color: #B973FB;
+    box-shadow: inset 0 0 8px #b973fb;
+}
+.faq .ask input[type="submit"]:hover{
+    color: white;
+    background-color: #B973FB;
+    box-shadow: 0 0 20px #b973fb;
+}
+
+
+
+
+footer .topfoot .content .imp, .links, .works, .industry, .touch{
+    margin-bottom: 60px;
+}
+footer .topfoot .content .imp img{
+    width: 30%;
+    margin-bottom: 20px;
+}
+footer .topfoot .content .imp p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+footer .topfoot .content .imp mark{
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+
+footer .topfoot .content .imp form input{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.628);
+    border: 2px solid #36415F;
+    position: relative;
+}
+footer .topfoot .content .imp form a{
+    position: absolute;
+    color: white;
+    padding: 10px 14px;
+        border-radius: 5px;
+        background-color: #0ea5ff;
+        top: 174px;
+        left: 78%;
+}
+footer .topfoot .content .links, .works, .industry, .touch{
+    margin-left: 0;
+}
+
+
+
+
+
+}
