@@ -752,7 +752,7 @@ header .btmheader .menu nav a.active {
     font-size: 30px; 
     filter: drop-shadow(0 0 2px rgba(128,60,251,1));
 }
-.faq .ask input[type="submit"]{
+.faq .ask button[type="submit"]{
     margin-top: 10px;
     border-radius: 30px;
     padding: 8px 50px;
@@ -762,7 +762,7 @@ header .btmheader .menu nav a.active {
     color: #B973FB;
     box-shadow: inset 0 0 8px #b973fb;
 }
-.faq .ask input[type="submit"]:hover{
+.faq .ask button[type="submit"]:hover{
     color: white;
     background-color: #B973FB;
     box-shadow: 0 0 20px #b973fb;
@@ -1297,7 +1297,861 @@ footer .btmfoot .copyright .right mark a:hover{
 
 
 
-@media (max-width: 768px) {
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+
+
+
+
+
+header .topheader .buttons .logo img {
+    height: 25px;
+}
+header .topheader .buttons .book a {
+    background-color: transparent;
+    border: 2px solid #b973fb;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 7px;
+    color: #b973fb;
+    padding: 10px 24px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 6px #B973FB;
+}
+
+header .topheader .buttons .book a:hover {
+    background-color: #b973fb;
+    color: white;
+    box-shadow: 0 0 15px #b973fb;
+}
+
+header .topheader .buttons .join a {
+    background: linear-gradient(to right, #3c6cfb 0%, #b973fb 100%);
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 7px;
+    padding: 10px 24px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+header .topheader .buttons .join a:hover {
+    background: linear-gradient(to right, #b973fb 0%, #3c6cfb 100%);
+    box-shadow: 0 0 20px rgba(60, 108, 251, 0.8);
+}
+
+header .btmheader .navbar-light .navbar-nav .nav-link{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    color: #1B0C31;
+    letter-spacing: 1px;
+    margin: 0 20px;
+}
+
+
+
+
+
+
+
+
+.banner h2 {
+    font-size: 20px;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+.banner h1 {
+    font-size: 38px;
+    line-height: 46px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    color: transparent;
+    background: linear-gradient(to right, rgb(255 255 255 / 50%) 0%, rgb(225 193 255 / 50%) 99%);
+    background-clip: text;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    letter-spacing: 4px;
+}
+
+
+
+
+
+.pages article h2 {
+    color: white;
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+}
+
+
+
+
+
+
+.expert h2 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: transparent;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(215, 172, 255, 1) 74%);
+    background-clip: text;
+    text-decoration: underline;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+.expert .first .detail,
+        .second .detail,
+        .third .detail,
+        .fourth .detail{
+    text-align: left;
+    padding-bottom: 54px;
+}
+.expert h3 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #B973FB;
+    display: inline-block;
+    background-color: white;
+    border-radius: 30px;
+    padding: 4px 15px;
+    box-shadow: 0 4px 6px #B973FB;
+    margin-bottom: 20px;
+}
+.expert h2 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: transparent;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(215, 172, 255, 1) 74%);
+    background-clip: text;
+    text-decoration: underline;
+    line-height: 40px;
+    margin-bottom: 80px;
+}
+.expert .first .detail h4{
+    margin-bottom: 10px;
+    margin-top: 34px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .third .detail h4{
+    margin-bottom: 10px;
+    margin-top: 42px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .second .detail h4{
+    margin-bottom: 10px;
+    margin-top: 26px;
+    margin-left: 0;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .fourth .detail h4{
+    margin-bottom: 10px;
+    margin-top: 34px;
+    margin-left: 0;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .first .detail p,
+        .third .detail p{
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.expert .fourth .detail p{
+    margin-left: 0;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.expert .second .detail p{
+    margin-left: 0;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.expert .second .detail .ui a,
+        .fourth .detail .ui a{
+    display: inline-block;        
+    margin-left: 0;
+    margin-right: 80px;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+.expert .second .detail .ux a,
+        .fourth .detail .ux a{
+    display: inline-block;  
+    margin-left: 0;
+    margin-right: 60px;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+.expert .first .detail .ui a, .third .detail .ui a {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+.expert .first .detail .ux a, .third .detail .ux a {
+    display: inline-block;
+    margin-right: 58px;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+.expert .first .detail .more,
+        .third .detail .more{
+    color: #B973FB;
+    font-weight: 600;
+    float: right;
+    margin-right: 0;
+}
+.expert .btn {
+    background-color: transparent;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: inset 0 0 6px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.portfolio h3{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #B973FB;
+    display: inline-block;
+    background-color: white;
+    border-radius: 30px;
+    padding: 4px 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.596);
+    margin-bottom: 20px;
+}
+.portfolio h2{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: transparent;
+    background: linear-gradient(to right, rgba(60,107,251,1) 0%,rgba(36,64,149,1) 100%);
+    background-clip: text;
+    text-decoration: underline;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.portfolio p{
+    color: #6A6A6A;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.portfolio .btn-secondary{
+    margin: 0 10px;
+    font-size: 8px;
+    padding: 6px 20px;
+    border-radius: 30px;
+    color: #803CFB;
+    margin-bottom: 10px;
+    border:2px solid transparent;
+    background-image:
+        linear-gradient(to right, rgba(242,229,255,1) 0%,rgba(204,216,255,1) 100%),
+        linear-gradient(to right, rgba(60,107,251,1) 0%,rgba(185,115,251,1) 100%);
+    background-origin:border-box;
+    background-clip:padding-box,border-box;
+}
+.portfolio .works .task a{
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+.portfolio .works .task a:hover{
+    color: #8402FF;
+    font-weight: 900;
+}
+.portfolio .works .task p{
+    color: #6A6A6A;
+    font-size: 12px;
+    margin-top: 16px;
+}
+.portfolio .projects{
+    background-color: transparent;
+    border: 2px solid #8402FF;
+    border-radius: 30px;
+    color: #803CFB;
+    padding: 10px 50px;
+    font-weight: 600;
+    font-size: 10px;
+    box-shadow: inset 0 0 6px #803cfb;
+}
+
+
+
+
+
+
+
+
+.faq h3 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #B973FB;
+    display: inline-block;
+    background-color: white;
+    border-radius: 30px;
+    padding: 4px 15px;
+    box-shadow: 0 4px 6px rgba(185, 115, 251, 1);
+    margin-bottom: 20px;
+}
+.faq h2 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: transparent;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 10%, rgba(185, 115, 251, 1) 40%);
+    background-clip: text;
+    text-decoration: underline;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.faq a {
+    margin-bottom: 50px;
+    float: right;
+    color: white;
+    font-size: 10px;
+    font-weight: 900;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgba(60, 107, 251, 1) 0%, rgba(185, 115, 251, 1) 100%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.596);
+}
+.faq .accordion-button {
+    border: 1px solid #0ea5ff;
+    box-shadow: inset 0 2px 4px #0ea7ffce;
+    border-radius: 8px;
+    color: #803CFB;
+    font-size: 14px;
+    font-weight: 600;
+}
+.faq .accordion-body {
+    background-color: #803CFB;
+    color: white;
+    font-size: 12px;
+    border-radius: 8px;
+}
+.faq .ask{
+    margin-top: 50px;
+    position: relative;
+}
+.faq .ask label{
+    display: block;
+    color: #B973FB;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.faq .ask input[type="text"]{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px 40px;
+    border: 2px solid #B973FB;
+    box-shadow: inset 0 0 6px #B973FB;
+}
+.faq .ask .pen{
+    position: absolute;
+    top: 37px;
+    left: 14px;
+    color: #0ea5ff;
+    font-size: 20px;
+    filter: drop-shadow(2px 4px 2px rgb(0, 170, 255));
+}
+.faq .ask .question{
+   position: absolute;
+    top: 36px;
+    left: 94%;
+    color: #8402FF;
+    font-size: 30px; 
+    filter: drop-shadow(0 0 2px rgba(128,60,251,1));
+}
+.faq .ask button[type="submit"]{
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 0px 50px;
+    font-size: 10px;
+    font-weight: 900;
+    border: 2px solid #B973FB;
+    background-color: transparent;
+    color: #B973FB;
+    box-shadow: inset 0 0 8px #b973fb;
+}
+.faq .ask button[type="submit"]:hover{
+    color: white;
+    background-color: #B973FB;
+    box-shadow: 0 0 20px #b973fb;
+}
+
+
+
+
+
+
+
+
+.blog h3{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #B973FB;
+    display: inline-block;
+    background-color: white;
+    border-radius: 30px;
+    padding: 4px 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.596);
+    margin-bottom: 20px;
+}
+.blog h2{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: transparent;
+    background: linear-gradient(to right, rgba(60,107,251,1) 0%,rgba(36,64,149,1) 100%);
+    background-clip: text;
+    text-decoration: underline;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.blog p{
+    color: #6A6A6A;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+/* .blog .posts{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+} */
+.blog .posts .image ,.image2{
+    background-color: white;
+    width: 100%;
+    border-radius: 16px;
+    margin-right: 30px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.356);
+    margin-bottom: 80px;
+}
+.blog .posts .image img, .image2 img{
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.blog .posts .image img:hover, .image2 img:hover{
+    transform: scale(1.1);
+}
+.blog .posts .image .text, .image2 .text{
+    padding: 30px;
+    text-align: left;
+}
+.blog .posts .image mark{
+    background-color: #D8EFFF;
+    color: #0088FF;
+    font-weight: 400;
+    padding: 2px 12px;
+    border-radius: 20px;
+}
+.blog .posts .image2 mark{
+    background-color: #F2E5FF;
+    color: #8402FF;
+    font-weight: 400;
+    padding: 2px 12px;
+    border-radius: 20px;
+}
+.blog .posts .image time, .image2 time{
+    float: right;
+    color: #202020;
+}
+.blog .posts .image i, .image2 i{
+    color: #202020;
+    margin-right: 5px;
+}
+.blog .posts .image h4, .image2 h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.blog .posts .image a, .image2 a{
+    color: black;
+    font-weight: 900;
+    font-size: 18px;
+}
+.blog .posts .image a:hover, .image2 a:hover{
+    color: #8402FF;
+}
+.blog .posts .image p, .image2 p{
+    color: #202020;
+    line-height: 30px;
+    font-size: 14px;
+}
+.blog .posts .image .read, .image2 .read{
+    color: #0088FF;
+    font-weight: 600;
+}
+.blog .posts .image .read i, .image2 .read i{
+    color: #0088FF;
+    font-weight: 600;
+}
+.blog .posts .image .read:hover, .image2 .read:hover{
+    color: #B973FB;
+}
+.blog .button{
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgba(60,107,251,1) 0%,rgba(185,115,251,1) 100%);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+}
+
+
+
+
+
+
+
+
+.testimonials h3{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #B973FB;
+    display: inline-block;
+    background-color: white;
+    border-radius: 30px;
+    padding: 4px 15px;
+    box-shadow: 0 4px 6px rgba(60, 108, 251, 0.8);
+    margin-bottom: 20px;
+}
+.testimonials h2{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: transparent;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(185,115,251,1) 100%);
+    background-clip: text;
+    text-decoration: underline;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.testimonials p{
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 1px;
+}
+.testimonials .clients .name i{
+    font-size: 24px;
+    color: #3c6cfb;
+    text-shadow: 0 0 6px rgba(60,107,251,1);
+}
+.testimonials .clients .name p{
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.testimonials .clients .name p::after{
+    position: absolute;
+    content: "";
+    background-color: transparent;
+    /* width: 240px;
+    height: 1px;
+    top: 85px;
+    left: 0; */
+}
+.testimonials .clients .name .picture{
+    display: flex;
+    gap: 40px;
+}
+.testimonials .clients .name .picture img{
+    width: 50px;
+    border-radius: 100%;
+    transition: all 2s;
+}
+.testimonials .clients .name .picture img:hover{
+    transform: rotate(360deg);
+}
+.testimonials .clients .name .picture a{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.testimonials .clients .name .picture a:hover{
+    color: #B973FB;
+}
+.testimonials .clients .name .picture h6{
+    color: transparent;
+    background: linear-gradient(to right, rgba(144,171,255,1) 0%,rgba(215,172,255,1) 98%);
+    background-clip: text;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.testimonials .view{
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgba(60,107,251,1) 0%,rgba(185,115,251,1) 100%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.596);
+}
+
+
+
+
+
+
+
+
+.business h2 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: transparent;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 7%, rgba(0, 136, 255, 1) 92%);
+    background-clip: text;
+    line-height: 34px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+.business p {
+    font-size: 12px;
+    line-height: 22px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 36px;
+    position: relative;
+    z-index: 1;
+}
+.business .start {
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+    font-weight: 900;
+    margin-right: 40px;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgba(60, 107, 251, 1) 0%, rgba(185, 115, 251, 1) 100%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.596);
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+.business .contact {
+    display: inline-block;
+    color: #b973fb;
+    font-size: 10px;
+    font-weight: 900;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: 2px solid #b973fb;
+    box-shadow: inset 0 0 6px #b973fb;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+footer .topfoot .content .imp, .links, .works, .industry, .touch{
+    margin-bottom: 60px;
+}
+footer .topfoot .content .imp img{
+    width: 30%;
+    margin-bottom: 20px;
+}
+footer .topfoot .content .imp p{
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+footer .topfoot .content .imp mark{
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+footer .topfoot .content .links .home li a, .works .cloud li a, .industry .health li a, .touch .address li a {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+footer .topfoot .content .imp form input{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.628);
+    border: 2px solid #36415F;
+    position: relative;
+}
+footer .topfoot .content .imp form a{
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    font-weight: 900;
+    padding: 4px 15px;
+        border-radius: 5px;
+        background-color: #0ea5ff;
+        top: 222px;
+        left: 14px;
+    }
+
+footer .topfoot .content .links, .works, .industry, .touch{
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
+
+
+header .topheader .buttons .logo img {
+    height: 36px;
+}
+header .topheader .buttons .book a {
+    background-color: transparent;
+    border: 2px solid #b973fb;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    color: #b973fb;
+    padding: 10px 24px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 6px #B973FB;
+}
+
+header .topheader .buttons .book a:hover {
+    background-color: #b973fb;
+    color: white;
+    box-shadow: 0 0 15px #b973fb;
+}
+
+header .topheader .buttons .join a {
+    background: linear-gradient(to right, #3c6cfb 0%, #b973fb 100%);
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 10px 24px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+header .topheader .buttons .join a:hover {
+    background: linear-gradient(to right, #b973fb 0%, #3c6cfb 100%);
+    box-shadow: 0 0 20px rgba(60, 108, 251, 0.8);
+}
+
+header .btmheader .navbar-light .navbar-nav .nav-link{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    color: #1B0C31;
+    letter-spacing: 1px;
+    margin: 0 20px;
+}
+
+
+
+
+
+
 
 
 
@@ -1325,6 +2179,290 @@ footer .btmfoot .copyright .right mark a:hover{
     z-index: 1;
     letter-spacing: 4px;
 }
+
+
+
+
+
+.expert .first .detail,
+        .second .detail,
+        .third .detail,
+        .fourth .detail{
+    text-align: left;
+    padding-bottom: 54px;
+}
+.expert .first .detail h4{
+    margin-bottom: 10px;
+    margin-top: 34px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .third .detail h4{
+    margin-bottom: 10px;
+    margin-top: 42px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .second .detail h4{
+    margin-bottom: 10px;
+    margin-top: 26px;
+    margin-left: 0;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .fourth .detail h4{
+    margin-bottom: 10px;
+    margin-top: 34px;
+    margin-left: 0;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .first .detail p,
+        .third .detail p{
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.expert .fourth .detail p{
+    margin-left: 0;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.expert .second .detail p{
+    margin-left: 0;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.expert .second .detail .ui a,
+        .fourth .detail .ui a{
+    margin-left: 0;
+    margin-right: 78px;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+.expert .second .detail .ux a,
+        .fourth .detail .ux a{
+    margin-left: 0;
+    margin-right: 60px;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+.expert .first .detail .more,
+        .third .detail .more{
+    color: #B973FB;
+    font-weight: 600;
+    float: right;
+    margin-right: 0;
+}
+.expert .btn {
+    background-color: transparent;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: inset 0 0 6px white;
+}
+
+
+
+
+.blog .posts .image ,.image2{
+    background-color: white;
+    width: 100%;
+    border-radius: 16px;
+    margin-right: 30px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.356);
+    margin-bottom: 80px;
+}
+.blog .posts .image img, .image2 img{
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+
+
+.faq .ask{
+    margin-top: 50px;
+    position: relative;
+}
+.faq .ask label{
+    display: block;
+    color: #B973FB;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.faq .ask input[type="text"]{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px 40px;
+    border: 2px solid #B973FB;
+    box-shadow: inset 0 0 6px #B973FB;
+}
+.faq .ask .pen{
+    position: absolute;
+    top: 37px;
+    left: 14px;
+    color: #0ea5ff;
+    font-size: 20px;
+    filter: drop-shadow(2px 4px 2px rgb(0, 170, 255));
+}
+.faq .ask .question{
+   position: absolute;
+    top: 36px;
+    left: 94%;
+    color: #8402FF;
+    font-size: 30px; 
+    filter: drop-shadow(0 0 2px rgba(128,60,251,1));
+}
+.faq .ask button[type="submit"]{
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 8px 50px;
+    font-weight: 600;
+    border: 2px solid #B973FB;
+    background-color: transparent;
+    color: #B973FB;
+    box-shadow: inset 0 0 8px #b973fb;
+}
+.faq .ask button[type="submit"]:hover{
+    color: white;
+    background-color: #B973FB;
+    box-shadow: 0 0 20px #b973fb;
+}
+
+
+
+
+.testimonials .clients .name p{
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.testimonials .clients .name p::after{
+    position: absolute;
+    content: "";
+    background-color: #3c6cfb61;
+    width: 300px;
+    height: 1px;
+    top: 81px;
+    left: 0;
+}
+
+
+
+
+footer .topfoot .content .imp, .links, .works, .industry, .touch{
+    margin-bottom: 60px;
+}
+footer .topfoot .content .imp img{
+    width: 30%;
+    margin-bottom: 20px;
+}
+footer .topfoot .content .imp p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+footer .topfoot .content .imp mark{
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+
+footer .topfoot .content .imp form input{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.628);
+    border: 2px solid #36415F;
+    position: relative;
+}
+footer .topfoot .content .imp form a{
+    position: absolute;
+    color: white;
+    padding: 10px 14px;
+        border-radius: 5px;
+        background-color: #0ea5ff;
+        top: 174px;
+        left: 78%;
+}
+footer .topfoot .content .links, .works, .industry, .touch{
+    margin-left: 0;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+
+
+.banner h1 {
+    font-size: 80px;
+    line-height: 90px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    color: transparent;
+    background: linear-gradient(to right, rgb(255 255 255 / 50%) 0%, rgb(225 193 255 / 50%) 99%);
+    background-clip: text;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+    letter-spacing: 4px;
+}
+.banner h2 {
+    font-size: 40px;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    letter-spacing: 6px;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+
 
 
 
@@ -1399,6 +2537,7 @@ footer .btmfoot .copyright .right mark a:hover{
 .expert .second .detail .ui a,
         .fourth .detail .ui a{
     margin-left: 0;
+    margin-right: 78px;
     font-size: 14px;
     color: white;
     font-weight: 300;
@@ -1406,6 +2545,7 @@ footer .btmfoot .copyright .right mark a:hover{
 .expert .second .detail .ux a,
         .fourth .detail .ux a{
     margin-left: 0;
+    margin-right: 60px;
     font-size: 14px;
     color: white;
     font-weight: 300;
@@ -1421,20 +2561,6 @@ footer .btmfoot .copyright .right mark a:hover{
 
 
 
-.blog .posts .image ,.image2{
-    background-color: white;
-    width: 100%;
-    border-radius: 16px;
-    margin-right: 30px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.356);
-    margin-bottom: 80px;
-}
-.blog .posts .image img, .image2 img{
-    width: 100%;
-    height: 300px;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-}
 
 
 
@@ -1472,7 +2598,7 @@ footer .btmfoot .copyright .right mark a:hover{
     font-size: 30px; 
     filter: drop-shadow(0 0 2px rgba(128,60,251,1));
 }
-.faq .ask input[type="submit"]{
+.faq .ask button[type="submit"]{
     margin-top: 10px;
     border-radius: 30px;
     padding: 8px 50px;
@@ -1482,11 +2608,35 @@ footer .btmfoot .copyright .right mark a:hover{
     color: #B973FB;
     box-shadow: inset 0 0 8px #b973fb;
 }
-.faq .ask input[type="submit"]:hover{
+.faq .ask button[type="submit"]:hover{
     color: white;
     background-color: #B973FB;
     box-shadow: 0 0 20px #b973fb;
 }
+
+
+
+
+
+
+
+
+.blog .posts .image ,.image2{
+    background-color: white;
+    width: 100%;
+    border-radius: 16px;
+    margin-right: 30px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.356);
+    margin-bottom: 80px;
+}
+.blog .posts .image img, .image2 img{
+    width: 100%;
+    height: 400px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+
 
 
 
@@ -1504,9 +2654,14 @@ footer .btmfoot .copyright .right mark a:hover{
     background-color: #3c6cfb61;
     width: 300px;
     height: 1px;
-    top: 81px;
+    top: 60px;
     left: 0;
 }
+
+
+
+
+
 
 
 
@@ -1542,15 +2697,551 @@ footer .topfoot .content .imp form input{
 footer .topfoot .content .imp form a{
     position: absolute;
     color: white;
-    padding: 10px 14px;
+    padding: 9px 19px;
         border-radius: 5px;
         background-color: #0ea5ff;
-        top: 174px;
-        left: 78%;
+        top: 191px;
+        left: 82%;
 }
 footer .topfoot .content .links, .works, .industry, .touch{
     margin-left: 0;
 }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+
+.banner h1 {
+    font-size: 110px;
+    line-height: 90px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    color: transparent;
+    background: linear-gradient(to right, rgb(255 255 255 / 50%) 0%, rgb(225 193 255 / 50%) 99%);
+    background-clip: text;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+    letter-spacing: 4px;
+}
+
+
+
+
+.pages .image .item a {
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+.expert .first .detail h4 {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .first .detail, .second .detail, .third .detail, .fourth .detail {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.expert .first .detail p, .third .detail p {
+    font-size: 10px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.expert .first .detail .ux, .third .detail .ux, .fourth .detail .ux {
+    margin-bottom: 22px;
+}
+.expert .second .detail h4 {
+    margin-top: 0px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .second .detail .ux {
+    margin-bottom: 3px;
+}
+.expert .first .detail .ui, .second .detail .ui, .third .detail .ui, .fourth .detail .ui {
+    margin-bottom: 0px;
+}
+.expert .third .detail h4 {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .fourth .detail h4 {
+    margin-top: 0px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .first .detail .ui a, .third .detail .ui a {
+    margin-right: 40px;
+    font-size: 10px;
+    color: white;
+    font-weight: 300;
+}
+.expert .first .detail .ux a, .third .detail .ux a {
+    margin-right: 58px;
+    font-size: 10px;
+    color: white;
+    font-weight: 300;
+}
+.expert .second .detail p {
+    margin-left: 40px;
+    font-size: 10px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.expert .second .detail .ui a, .fourth .detail .ui a {
+    margin-left: 40px;
+    font-size: 10px;
+    color: white;
+    font-weight: 300;
+}
+.expert .second .detail .ux a, .fourth .detail .ux a {
+    margin-left: 40px;
+    font-size: 10px;
+    color: white;
+    font-weight: 300;
+}
+.expert .fourth .detail p {
+    margin-left: 40px;
+    font-size: 10px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+
+
+
+
+
+.portfolio .works .task .overlay0 {
+    position: absolute;
+    background-color: #1b0c31b5;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 64px 0;
+    top: 0px;
+    bottom: 137px;
+    right: 0;
+    left: 0;
+    opacity: 0;
+}
+
+
+
+
+.faq a {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    float: right;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgba(60, 107, 251, 1) 0%, rgba(185, 115, 251, 1) 100%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.596);
+}
+
+
+
+
+
+
+.blog .posts .image ,.image2{
+    background-color: white;
+    width: 100%;
+    border-radius: 16px;
+    margin-right: 30px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.356);
+    margin-bottom: 80px;
+}
+.blog .posts .image img, .image2 img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.blog .posts .image mark {
+    background-color: #D8EFFF;
+    color: #0088FF;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 2px 12px;
+    border-radius: 20px;
+}
+.blog .posts .image2 mark {
+    background-color: #F2E5FF;
+    color: #8402FF;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 2px 12px;
+    border-radius: 20px;
+}
+.blog .posts .image time, .image2 time {
+    float: right;
+    font-size: 8px;
+    color: #202020;
+}
+.blog .posts .image h4, .image2 h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.blog .posts .image a, .image2 a {
+    color: black;
+    font-weight: 900;
+    font-size: 14px;
+}
+.blog .posts .image p, .image2 p {
+    color: #202020;
+    line-height: 20px;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+.testimonials .clients .name p {
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.testimonials .clients .name p::after {
+    position: absolute;
+    content: "";
+    background-color: #3c6cfb61;
+    width: 232px;
+    height: 1px;
+    top: 132px;
+    left: 0;
+}
+.testimonials .clients .name .picture a {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.testimonials .clients .name .picture h6 {
+    color: transparent;
+    background: linear-gradient(to right, rgba(144, 171, 255, 1) 0%, rgba(215, 172, 255, 1) 98%);
+    background-clip: text;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.testimonials .clients .name .picture {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+
+
+footer .topfoot .content .imp, .links, .works, .industry, .touch{
+    margin-bottom: 60px;
+}
+footer .topfoot .content .imp img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+footer .topfoot .content .imp p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+footer .topfoot .content .imp mark{
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+footer .topfoot .content .links .home li a, .works .cloud li a, .industry .health li a, .touch .address li a {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+footer .topfoot .content .imp form input{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.628);
+    border: 2px solid #36415F;
+    position: relative;
+}
+footer .topfoot .content .imp form a {
+        position: absolute;
+        color: white;
+        padding: 10px 4px;
+        border-radius: 5px;
+        background-color: #0ea5ff;
+        top: 207px;
+        left: 141px;
+    }
+footer .topfoot .content .links, .works, .industry, .touch{
+    margin-left: 0;
+}
+
+footer .btmfoot .copyright .copy p {
+    font-size: 9px;
+}
+footer .btmfoot .copyright .all p {
+    font-size: 12px;
+}
+footer .btmfoot .copyright .right p {
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1400px) {
+
+
+
+.expert .first .detail h4 {
+    margin-top: 34px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .first .detail p, .third .detail p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.expert .first .detail .ui a, .third .detail .ui a {
+    margin-right: 40px;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}
+.expert .first .detail .ux a, .third .detail .ux a {
+    margin-right: 58px;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}
+.expert .first .detail .ux, .third .detail .ux, .fourth .detail .ux {
+    margin-bottom: 40px;
+}
+.expert .second .detail h4 {
+    margin-top: 26px;
+    margin-left: 40px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .second .detail p {
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.expert .second .detail .ui a, .fourth .detail .ui a {
+    margin-left: 40px;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}
+.expert .second .detail .ux a, .fourth .detail .ux a {
+    margin-left: 40px;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}
+.expert .second .detail .ux {
+    margin-bottom: 18px;
+}
+.expert .third .detail h4 {
+    margin-top: 42px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .fourth .detail h4 {
+    margin-top: 34px;
+    margin-left: 40px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+.expert .fourth .detail p {
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+
+
+
+
+.portfolio .works .task .overlay0 {
+    position: absolute;
+    background-color: #1b0c31b5;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 96px 0;
+    top: 0px;
+    bottom: 137px;
+    right: 0;
+    left: 0;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+.blog .posts .image ,.image2{
+    background-color: white;
+    width: 100%;
+    border-radius: 16px;
+    margin-right: 30px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.356);
+    margin-bottom: 80px;
+}
+.blog .posts .image img, .image2 img{
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+
+
+
+
+
+.testimonials .clients .name p::after{
+    position: absolute;
+    content: "";
+    background-color: #3c6cfb61;
+    width: 300px;
+    height: 1px;
+    top: 110px;
+    left: 0;
+}
+
+
+
+
+footer .topfoot .content .imp form a {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0ea5ff;
+    top: 207px;
+    left: 218px;
+}
+footer .btmfoot .copyright .copy p {
+    font-size: 14px;
+}
+footer .btmfoot .copyright .all p {
+    font-size: 18px;
+}
+footer .btmfoot .copyright .right p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
 
 
 
