@@ -846,7 +846,7 @@ header .btmheader .menu nav a.active {
     font-size: 30px; 
     filter: drop-shadow(0 0 2px rgba(128,60,251,1));
 }
-.faq .ask input[type="submit"]{
+.faq .ask button[type="submit"]{
     margin-top: 10px;
     border-radius: 30px;
     padding: 8px 50px;
@@ -856,7 +856,7 @@ header .btmheader .menu nav a.active {
     color: #B973FB;
     box-shadow: inset 0 0 8px #b973fb;
 }
-.faq .ask input[type="submit"]:hover{
+.faq .ask button[type="submit"]:hover{
     color: white;
     background-color: #B973FB;
     box-shadow: 0 0 20px #b973fb;
@@ -1139,7 +1139,679 @@ footer .btmfoot .copyright .right mark a:hover{
 
 
 
-@media (max-width: 768px) {
+
+
+@media (min-width: 300px) and (max-width: 575.98px) {
+
+    header .topheader .buttons .logo img {
+    height: 25px;
+}
+header .topheader .buttons .book a {
+    background-color: transparent;
+    border: 2px solid #b973fb;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 7px;
+    color: #b973fb;
+    padding: 10px 24px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 6px #B973FB;
+}
+
+header .topheader .buttons .book a:hover {
+    background-color: #b973fb;
+    color: white;
+    box-shadow: 0 0 15px #b973fb;
+}
+
+header .topheader .buttons .join a {
+    background: linear-gradient(to right, #3c6cfb 0%, #b973fb 100%);
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 7px;
+    padding: 10px 24px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+header .topheader .buttons .join a:hover {
+    background: linear-gradient(to right, #b973fb 0%, #3c6cfb 100%);
+    box-shadow: 0 0 20px rgba(60, 108, 251, 0.8);
+}
+
+header .btmheader .navbar-light .navbar-nav .nav-link{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    color: #1B0C31;
+    letter-spacing: 1px;
+    margin: 0 20px;
+}
+
+
+
+
+
+
+
+ .banner p{
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+.banner h1{
+    font-size: 30px;
+    line-height: 40px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    color: transparent;
+    background: linear-gradient(to right, rgb(255 255 255 / 50%) 0%, rgb(225 193 255 / 50%) 99%);
+    background-clip: text;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+.banner h1::after{
+    position: absolute;
+    content: "";
+    background-color: transparent;
+    /* width: 50px;
+    height: 1px;
+    top: 379%;
+    left: 47%; */
+}
+.banner h1::before{
+    position: absolute;
+    content: "";
+    background-color: transparent;
+    /* width: 50px;
+    height: 1px;
+    top: 316%;
+    left: 47%; */
+}
+.banner .call{
+    display: inline-block;
+    color: #b973fb;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 10px 50px;
+    margin-right: 0;
+    border: 2px solid #b973fb;
+    border-radius: 30px;
+    box-shadow: inset 0 0 6px #b973fb;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+.banner .call:hover{
+    color: white;
+    background-color: #b973fb;
+    box-shadow: 0 0 20px #b973fb;
+}
+.banner .get{
+    display: inline-block;
+    background: linear-gradient(to right, #3c6cfb 0%, #b973fb 100%);
+    color: white;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 10px 50px;
+    position: relative;
+    z-index: 1;
+}
+.banner .get:hover{
+    background: linear-gradient(to right, #b973fb 0%, #3c6cfb 100%);
+    box-shadow: 0 0 20px rgba(60, 108, 251, 0.8);
+}
+.banner .feature{
+    /* display: flex;
+    justify-content: center;
+    gap: 80px; */
+    margin-top: 80px;
+    position: relative;
+    z-index: 1;
+}
+.banner .feature .quick{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.banner .feature .quick .name{
+    margin-top: 0px;
+}
+.banner .feature .quick main mark{
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    background-color: transparent;
+}
+
+
+
+
+
+.mobile .location .mob1 .image {
+    position: absolute;
+    top: 64px;
+    left: 42%;
+}
+.mobile .location .mob2 .image {
+    position: absolute;
+    top: 64px;
+    left: 40%;
+}
+.mobile .location .mob3 .image {
+    position: absolute;
+    top: 64px;
+    left: 40%;
+}
+.mobile .location .mob4 .image {
+    position: absolute;
+    top: 64px;
+    left: 39%;
+}
+
+
+
+
+
+
+
+.contact h2{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: transparent;
+    background: linear-gradient(to right, rgba(60,107,251,1) 0%,rgb(0, 0, 0) 100%);
+    background-clip: text;
+    text-decoration: underline;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.contact p{
+    color: #6A6A6A;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+.contact .background a img{
+    width: 100%;
+    transition: all 3s;
+}
+.contact .background a img:hover{
+    transform: rotateY(180deg);
+}
+.contact form .name-id{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.contact form .name-id .name, .email{
+    position: relative;
+}
+.contact form .name-id .name i, .email i{
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    color: #803CFB;
+} 
+.contact form .name-id .name input{
+    padding: 12px 50px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+}
+.contact form .name-id .email input{
+    padding: 12px 50px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+}
+.contact form .details{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.contact form .details .number, .company{
+    position: relative;
+}
+.contact form .details .number i, .company i{
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    color: #B973FB;
+}
+.contact form .details .number input{
+    padding: 12px 50px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+}
+.contact form .details .company input{
+    padding: 12px 50px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+}
+.contact .send{
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgba(60,107,251,1) 0%,rgba(185,115,251,1) 100%);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+}
+.contact .send i{
+    margin-right: 10px;
+}
+.contact .send:hover{
+    background: linear-gradient(to right, rgba(185,115,251,1) 0%,rgba(60,107,251,1) 100%);
+    box-shadow: 0 0 20px rgba(60, 108, 251, 0.8);
+}
+.contact mark{
+    display: block;
+    margin-top: 8px;
+    background-color: transparent;
+    color: #2E2E2E;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.contact mark i{
+    color: #0088FF;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+.map .content .locate h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: "Orbitron", sans-serif;
+    color: transparent;
+    background: linear-gradient(to right, rgba(185, 115, 251, 1) 4%, rgba(80, 0, 155, 1) 75%);
+    background-clip: text;
+    line-height: 40px;
+    text-decoration: underline;
+}
+.map .content .locate p {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Rajdhani", sans-serif;
+    margin-bottom: 40px;
+}
+.map .content .locate .menu {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.map .content .locate .menu .link {
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%) padding-box, linear-gradient(135deg, rgba(0, 167, 28, 1) 9%, rgba(255, 234, 0, 1) 35%, rgba(0, 136, 255, 1) 63%, rgba(205, 10, 0, 1) 94%) border-box;
+    transition: transform 0.3s ease;
+}
+.map .content .locate .menu .link a {
+    font-weight: 900;
+    font-size: 10px;
+    color: black;
+}
+.map .content .locate .images .overlayy {
+        position: absolute;
+        background-color: #1b0c31b5;
+        padding: 25px 23px;
+        top: 0;
+        left: 67%;
+        right: 0;
+        bottom: 0px;
+    }
+.map .content .locate .images .overlayy a {
+    color: white;
+    font-size: 9px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+.world h2 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: transparent;
+    background: linear-gradient(to right, rgba(60, 107, 251, 1) 0%, rgb(0, 0, 0) 100%);
+    background-clip: text;
+    text-decoration: underline;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+.world .parent .child h3, .child1 h3, .child2 h3 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Orbitron", sans-serif;
+    margin-bottom: 20px;
+}
+.world .parent .child p, .child1 p, .child2 p {
+    color: white;
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 30px;
+}
+.world .parent .child a, .child1 a, .child2 a {
+    color: white;
+    font-size: 10px;
+    padding: 10px 35px;
+    border: 2px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: inset 0 0 6px white;
+}
+
+
+
+
+
+
+
+
+
+.faq h3 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #B973FB;
+    display: inline-block;
+    background-color: white;
+    border-radius: 30px;
+    padding: 4px 15px;
+    box-shadow: 0 4px 6px rgba(185, 115, 251, 1);
+    margin-bottom: 20px;
+}
+.faq h2 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: transparent;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 10%, rgba(185, 115, 251, 1) 40%);
+    background-clip: text;
+    text-decoration: underline;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.faq a {
+    margin-bottom: 50px;
+    float: right;
+    color: white;
+    font-size: 10px;
+    font-weight: 900;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgba(60, 107, 251, 1) 0%, rgba(185, 115, 251, 1) 100%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.596);
+}
+.faq .accordion-button {
+    border: 1px solid #0ea5ff;
+    box-shadow: inset 0 2px 4px #0ea7ffce;
+    border-radius: 8px;
+    color: #803CFB;
+    font-size: 14px;
+    font-weight: 600;
+}
+.faq .accordion-body {
+    background-color: #803CFB;
+    color: white;
+    font-size: 12px;
+    border-radius: 8px;
+}
+.faq .ask{
+    margin-top: 50px;
+    position: relative;
+}
+.faq .ask label{
+    display: block;
+    color: #B973FB;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.faq .ask input[type="text"]{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px 40px;
+    border: 2px solid #B973FB;
+    box-shadow: inset 0 0 6px #B973FB;
+}
+.faq .ask .pen{
+    position: absolute;
+    top: 37px;
+    left: 14px;
+    color: #0ea5ff;
+    font-size: 20px;
+    filter: drop-shadow(2px 4px 2px rgb(0, 170, 255));
+}
+.faq .ask .question{
+   position: absolute;
+    top: 36px;
+    left: 90%;
+    color: #8402FF;
+    font-size: 30px; 
+    filter: drop-shadow(0 0 2px rgba(128,60,251,1));
+}
+.faq .ask button[type="submit"]{
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 0px 50px;
+    font-size: 10px;
+    font-weight: 900;
+    border: 2px solid #B973FB;
+    background-color: transparent;
+    color: #B973FB;
+    box-shadow: inset 0 0 8px #b973fb;
+}
+.faq .ask button[type="submit"]:hover{
+    color: white;
+    background-color: #B973FB;
+    box-shadow: 0 0 20px #b973fb;
+}
+
+
+
+
+
+
+.future .build .consult h2 {
+    margin-top: 30px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.future .build .button p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 30px;
+}
+.future .build .button .now {
+    display: inline-block;
+    margin-right: 30px;
+    color: #B973FB;
+    font-size: 10px;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: 2px solid #B973FB;
+    font-weight: 900;
+    box-shadow: inset 0 0 6px #B973FB;
+    margin-bottom: 10px;
+}
+.future .build .button .book {
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+    padding: 10px 50px;
+    font-weight: 900;
+    background: linear-gradient(135deg, rgba(0, 136, 255, 1) 0%, rgba(185, 115, 251, 1) 60%);
+    border-radius: 30px;
+}
+
+
+
+
+
+
+footer .topfoot .content .imp, .links, .works, .industry, .touch{
+    margin-bottom: 60px;
+}
+footer .topfoot .content .imp img{
+    width: 30%;
+    margin-bottom: 20px;
+}
+footer .topfoot .content .imp p{
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+footer .topfoot .content .imp mark{
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+footer .topfoot .content .links .home li a, .works .cloud li a, .industry .health li a, .touch .address li a {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+footer .topfoot .content .imp form input{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.628);
+    border: 2px solid #36415F;
+    position: relative;
+}
+footer .topfoot .content .imp form a{
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    font-weight: 900;
+    padding: 4px 15px;
+        border-radius: 5px;
+        background-color: #0ea5ff;
+        top: 222px;
+        left: 14px;
+    }
+
+footer .topfoot .content .links, .works, .industry, .touch{
+    margin-left: 0;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
+
+
+header .topheader .buttons .logo img {
+    height: 36px;
+}
+header .topheader .buttons .book a {
+    background-color: transparent;
+    border: 2px solid #b973fb;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    color: #b973fb;
+    padding: 10px 24px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 6px #B973FB;
+}
+
+header .topheader .buttons .book a:hover {
+    background-color: #b973fb;
+    color: white;
+    box-shadow: 0 0 15px #b973fb;
+}
+
+header .topheader .buttons .join a {
+    background: linear-gradient(to right, #3c6cfb 0%, #b973fb 100%);
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 10px 24px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+header .topheader .buttons .join a:hover {
+    background: linear-gradient(to right, #b973fb 0%, #3c6cfb 100%);
+    box-shadow: 0 0 20px rgba(60, 108, 251, 0.8);
+}
+
+header .btmheader .navbar-light .navbar-nav .nav-link{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    color: #1B0C31;
+    letter-spacing: 1px;
+    margin: 0 20px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -1449,6 +2121,546 @@ footer .topfoot .content .imp form a{
 footer .topfoot .content .links, .works, .industry, .touch{
     margin-left: 0;
 }
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+
+
+.banner p {
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+.banner h1 {
+    font-size: 48px;
+    line-height: 50px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    color: transparent;
+    background: linear-gradient(to right, rgb(255 255 255 / 50%) 0%, rgb(225 193 255 / 50%) 99%);
+    background-clip: text;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 1;
+}
+.banner h1::after{
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 50px;
+    height: 1px;
+    top: 584%;
+    left: 47%;
+}
+.banner h1::before{
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 50px;
+    height: 1px;
+    top: 472%;
+    left: 47%;
+}
+.banner .feature .quick{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.banner .feature .quick .name{
+    margin-top: 0px;
+}
+.banner .feature .quick main mark{
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    background-color: transparent;
+}
+
+
+
+
+
+.mobile .location .mob1 .image {
+    position: absolute;
+    top: 64px;
+    left: 46%;
+}
+.mobile .location .mob2 .image {
+    position: absolute;
+    top: 64px;
+    left: 45%;
+}
+.mobile .location .mob3 .image {
+    position: absolute;
+    top: 64px;
+    left: 45%;
+}
+.mobile .location .mob4 .image {
+    position: absolute;
+    top: 64px;
+    left: 44%;
+}
+
+
+
+
+
+
+.contact form .name-id{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact form .details{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.map .content .locate .images .overlayy {
+    position: absolute;
+    background-color: #1b0c31b5;
+    padding: 67px 62px;
+    top: 0;
+    left: 67%;
+    right: 0;
+    bottom: 0px;
+}
+
+
+
+
+
+
+
+.faq .ask{
+    margin-top: 50px;
+    position: relative;
+}
+.faq .ask label{
+    display: block;
+    color: #B973FB;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.faq .ask input[type="text"]{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px 40px;
+    border: 2px solid #B973FB;
+    box-shadow: inset 0 0 6px #B973FB;
+}
+.faq .ask .pen{
+    position: absolute;
+    top: 37px;
+    left: 14px;
+    color: #0ea5ff;
+    font-size: 20px;
+    filter: drop-shadow(2px 4px 2px rgb(0, 170, 255));
+}
+.faq .ask .question{
+   position: absolute;
+    top: 36px;
+    left: 94%;
+    color: #8402FF;
+    font-size: 30px; 
+    filter: drop-shadow(0 0 2px rgba(128,60,251,1));
+}
+.faq .ask button[type="submit"]{
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 8px 50px;
+    font-weight: 600;
+    border: 2px solid #B973FB;
+    background-color: transparent;
+    color: #B973FB;
+    box-shadow: inset 0 0 8px #b973fb;
+}
+.faq .ask button[type="submit"]:hover{
+    color: white;
+    background-color: #B973FB;
+    box-shadow: 0 0 20px #b973fb;
+}
+
+
+
+
+
+
+.future .build .consult h2 {
+    margin-top: 30px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+footer .topfoot .content .imp, .links, .works, .industry, .touch{
+    margin-bottom: 60px;
+}
+footer .topfoot .content .imp img{
+    width: 30%;
+    margin-bottom: 20px;
+}
+footer .topfoot .content .imp p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+footer .topfoot .content .imp mark{
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+
+footer .topfoot .content .imp form input{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.628);
+    border: 2px solid #36415F;
+    position: relative;
+}
+footer .topfoot .content .imp form a{
+    position: absolute;
+    color: white;
+    padding: 9px 19px;
+        border-radius: 5px;
+        background-color: #0ea5ff;
+        top: 191px;
+        left: 82%;
+}
+footer .topfoot .content .links, .works, .industry, .touch{
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+.banner .feature .quick main svg{
+    margin-top: 7px;
+}
+.banner .feature .quick main mark {
+    font-weight: 600;
+    font-size: 11px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    background-color: transparent;
+}
+
+
+
+
+
+
+.mobile .location .mob1 .image {
+    position: absolute;
+    top: 64px;
+    left: 80px;
+}
+.mobile .location .mob2 .image {
+    position: absolute;
+    top: 64px;
+    left: 72px;
+}
+.mobile .location .mob3 .image {
+    position: absolute;
+    top: 64px;
+    left: 72px;
+}
+.mobile .location .mob4 .image {
+    position: absolute;
+    top: 64px;
+    left: 70px;
+}
+.contact .send {
+    color: white;
+    font-weight: 400;
+    padding: 10px 50px;
+    border-radius: 30px;
+    margin-right: 2%;
+    background: linear-gradient(to right, rgba(60, 107, 251, 1) 0%, rgba(185, 115, 251, 1) 100%);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+}
+
+
+
+
+
+
+.map .content .locate .images .overlayy {
+    position: absolute;
+    background-color: #1b0c31b5;
+    padding: 40px 22px;
+    top: 0;
+    left: 67%;
+    right: 0;
+    bottom: 0px;
+}
+.world .parent .child p, .child1 p, .child2 p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.faq a {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    float: right;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgba(60, 107, 251, 1) 0%, rgba(185, 115, 251, 1) 100%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.596);
+}
+
+
+
+
+
+
+.future .build .consult h2 {
+    margin-top: 10px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+
+
+
+
+
+footer .topfoot .content .imp, .links, .works, .industry, .touch{
+    margin-bottom: 60px;
+}
+footer .topfoot .content .imp img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+footer .topfoot .content .imp p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+footer .topfoot .content .imp mark{
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+footer .topfoot .content .links .home li a, .works .cloud li a, .industry .health li a, .touch .address li a {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+footer .topfoot .content .imp form input{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.628);
+    border: 2px solid #36415F;
+    position: relative;
+}
+footer .topfoot .content .imp form a {
+        position: absolute;
+        color: white;
+        padding: 10px 4px;
+        border-radius: 5px;
+        background-color: #0ea5ff;
+        top: 207px;
+        left: 141px;
+    }
+footer .topfoot .content .links, .works, .industry, .touch{
+    margin-left: 0;
+}
+
+footer .btmfoot .copyright .copy p {
+    font-size: 9px;
+}
+footer .btmfoot .copyright .all p {
+    font-size: 12px;
+}
+footer .btmfoot .copyright .right p {
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+
+
+
+@media (min-width: 1400px) {
+
+
+
+
+.banner .feature .quick main svg{
+    margin-top: 4px;
+}
+
+
+
+
+
+.mobile .location .mob1 .image {
+    position: absolute;
+    top: 64px;
+    left: 124px;
+}
+.mobile .location .mob2 .image {
+    position: absolute;
+    top: 64px;
+    left: 117px;
+}
+.mobile .location .mob3 .image {
+    position: absolute;
+    top: 64px;
+    left: 116px;
+}
+.mobile .location .mob4 .image {
+    position: absolute;
+    top: 64px;
+    left: 114px;
+}
+
+
+
+
+
+.contact form .name-id {
+    display: flex;
+    justify-content: left;
+    gap: 86px;
+    margin-bottom: 20px;
+}
+.contact form .details {
+    display: flex;
+    justify-content: left;
+    gap: 86px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+.map .content .locate .images .overlayy {
+    position: absolute;
+    background-color: #1b0c31b5;
+    padding: 60px 52px;
+    top: 0;
+    left: 67%;
+    right: 0;
+    bottom: 0px;
+}
+
+
+
+
+
+
+footer .topfoot .content .imp form a {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0ea5ff;
+    top: 207px;
+    left: 218px;
+}
+footer .btmfoot .copyright .copy p {
+    font-size: 14px;
+}
+footer .btmfoot .copyright .all p {
+    font-size: 18px;
+}
+footer .btmfoot .copyright .right p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
 
 
 

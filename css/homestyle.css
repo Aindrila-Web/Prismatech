@@ -658,7 +658,7 @@ header .btmheader .menu nav a.active {
 .plans .price .box .overlay1 h5{
     position: absolute;
     bottom: 96%;
-    left: 68px;
+    left: 60px;
     background: linear-gradient(to right, rgba(60,107,251,1) 0%,rgba(185,115,251,1) 100%);
     box-shadow: 0 0 20px rgba(60, 108, 251, 0.8);
     padding: 10px 35px;
@@ -1556,7 +1556,7 @@ header .topheader .buttons .join a:hover {
 
 header .btmheader .navbar-light .navbar-nav .nav-link{
     font-family: "Rajdhani", sans-serif;
-    font-size: 7px;
+    font-size: 14px;
     font-weight: 900;
     color: #1B0C31;
     letter-spacing: 1px;
@@ -1602,11 +1602,12 @@ header .btmheader .navbar-light .navbar-nav .nav-link{
     margin-bottom: 50px;
 }
 .banner nav .start{
+    display: inline-block;
     color: white;
-    font-size: 7px;
+    font-size: 10px;
     letter-spacing: 1px;
-    font-weight: 400;
-    padding: 10px 35px;
+    font-weight: 600;
+    padding: 5px 35px;
     border-radius: 30px;
     margin-right: 30px;
     background: linear-gradient(to right, rgba(7,78,255,1) 0%,rgba(185,115,251,1) 100%);
@@ -1616,12 +1617,13 @@ header .btmheader .navbar-light .navbar-nav .nav-link{
     box-shadow: 0 0 20px rgba(60, 108, 251, 0.8);
 }
 .banner nav .explore{
+    display: inline-block;
     background-color: transparent;
     border: 2px solid #b973fb;
-    font-weight: 400;
-    font-size: 7px;
+    font-weight: 600;
+    font-size: 10px;
     color: #b973fb;
-    padding: 10px 35px;
+    padding: 5px 35px;
     border-radius: 30px;
     letter-spacing: 1px;
 }
@@ -1720,7 +1722,7 @@ header .btmheader .navbar-light .navbar-nav .nav-link{
 .about .content a{
     font-family: "Rajdhani", sans-serif;
     font-weight: 600;
-    font-size: 7px;
+    font-size: 10px;
     padding: 8px 40px;
     border-radius: 30px;
     color: white;
@@ -1977,7 +1979,7 @@ header .btmheader .navbar-light .navbar-nav .nav-link{
     text-shadow: 0 0 6px rgba(60,107,251,1);
 }
 .testimonials .clients .name p{
-    font-weight: 200;
+    font-weight: 300;
     font-size: 12px;
     letter-spacing: 1px;
     margin-bottom: 30px;
@@ -2024,7 +2026,7 @@ header .btmheader .navbar-light .navbar-nav .nav-link{
     color: white;
     font-size: 10px;
     font-weight: 600;
-    padding: 10px 35px;
+    padding: 10px 50px;
     border-radius: 30px;
     background: linear-gradient(to right, rgba(60,107,251,1) 0%,rgba(185,115,251,1) 100%);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.596);
@@ -2436,7 +2438,7 @@ footer .topfoot .content .imp img{
 }
 footer .topfoot .content .imp p{
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
     margin-bottom: 30px;
 }
@@ -2480,6 +2482,71 @@ footer .topfoot .content .links, .works, .industry, .touch{
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
+
+
+header .topheader .buttons .logo img {
+    height: 36px;
+}
+header .topheader .buttons .book a {
+    background-color: transparent;
+    border: 2px solid #b973fb;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    color: #b973fb;
+    padding: 10px 24px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 6px #B973FB;
+}
+
+header .topheader .buttons .book a:hover {
+    background-color: #b973fb;
+    color: white;
+    box-shadow: 0 0 15px #b973fb;
+}
+
+header .topheader .buttons .join a {
+    background: linear-gradient(to right, #3c6cfb 0%, #b973fb 100%);
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 10px 24px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+header .topheader .buttons .join a:hover {
+    background: linear-gradient(to right, #b973fb 0%, #3c6cfb 100%);
+    box-shadow: 0 0 20px rgba(60, 108, 251, 0.8);
+}
+
+header .btmheader .navbar-light .navbar-nav .nav-link{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    color: #1B0C31;
+    letter-spacing: 1px;
+    margin: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .banner h1{
     font-family: "Rajdhani", sans-serif;
@@ -2561,7 +2628,7 @@ footer .topfoot .content .links, .works, .industry, .touch{
 }
 
 .testimonials .clients .name p{
-    font-weight: 200;
+    font-weight: 300;
     font-size: 14px;
     letter-spacing: 1px;
     margin-bottom: 30px;
@@ -2805,6 +2872,28 @@ footer .topfoot .content .links, .works, .industry, .touch{
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+.banner h1 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-size: 49px;
+    color: white;
+}
+
+
+.banner h2 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+
+
 
 
 .services .solution .data h4 {
@@ -3092,5 +3181,152 @@ footer .btmfoot .copyright .all p {
 footer .btmfoot .copyright .right p {
     font-size: 10px;
 }
+
+}
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+@media (min-width: 1400px) {
+
+
+.choose .points .reason h5{
+    margin-top: 14px;
+    font-size: 24px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    color: #803CFB;
+    letter-spacing: 0;
+}
+
+.choose .points .reason p {
+    margin-top: 18px;
+    color: #6A6A6A;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0;
+}
+
+
+
+
+.portfolio .works .task .overlay0 {
+    position: absolute;
+    background-color: #1b0c31b5;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 96px 0;
+    top: 0px;
+    bottom: 137px;
+    right: 0;
+    left: 0;
+    opacity: 0;
+}
+
+
+
+.plans .price .box a {
+    text-align: center;
+    padding: 10px 117px;
+    border: 2px dotted #b973fb;
+    color: white;
+    border-radius: 14px;
+}
+.plans .price .box .overlay1 h5 {
+    position: absolute;
+    bottom: 96%;
+    left: 90px;
+    background: linear-gradient(to right, rgba(60, 107, 251, 1) 0%, rgba(185, 115, 251, 1) 100%);
+    box-shadow: 0 0 20px rgba(60, 108, 251, 0.8);
+    padding: 10px 35px;
+    border-radius: 30px;
+    color: white;
+}
+
+
+
+.testimonials .clients .name p::after{
+    position: absolute;
+    content: "";
+    background-color: #3c6cfb61;
+    width: 300px;
+    height: 1px;
+    top: 110px;
+    left: 0;
+}
+
+
+
+.blog .posts .image ,.image2{
+    background-color: white;
+    width: 100%;
+    border-radius: 16px;
+    margin-right: 30px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.356);
+    margin-bottom: 80px;
+}
+.blog .posts .image img, .image2 img{
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+
+
+
+.contact form .name-id {
+    display: flex;
+    justify-content: left;
+    gap: 86px;
+    margin-bottom: 20px;
+}
+.contact form .details {
+    display: flex;
+    justify-content: left;
+    gap: 86px;
+    margin-bottom: 20px;
+}
+
+
+
+
+footer .topfoot .content .imp form a {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0ea5ff;
+    top: 207px;
+    left: 218px;
+}
+footer .btmfoot .copyright .copy p {
+    font-size: 14px;
+}
+footer .btmfoot .copyright .all p {
+    font-size: 18px;
+}
+footer .btmfoot .copyright .right p {
+    font-size: 15px;
+}
+
+
+
 
 }
